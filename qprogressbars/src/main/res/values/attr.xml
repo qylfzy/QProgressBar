@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QProgressBar">
+        <attr name="bar_type">
+            <flag name="linesBar" value="0" />
+            <flag name="circleBar" value="1" />
+            <flag name="annulusBar" value="2" />
+        </attr>
+        <attr name="bar_max" format="float" />
+        <attr name="bar_bg_color" format="color" />
+        <attr name="bar_pr_color" format="color" />
+        <attr name="bar_text_color" format="color" />
+        <attr name="bar_text_size" format="float" />
+        <attr name="bar_text_visibily" format="boolean" />
+        <attr name="bar_annulus_border_width" format="float" />
+    </declare-styleable>
+</resources>
